@@ -18,7 +18,7 @@ I have used the [specific textbook](https://www.amazon.com/Algorithm-Design-Jon-
 
 - Masters Theorem
 
-  - (this part is not from the specific book. I am sure you can look it through Google. there are awesome resources outside about Masters Theorem)
+  - (this part is not from the specific book. I am sure you can look it through Google. There are awesome resources outside about Masters Theorem)
 
 - Divide and Conquer
 
@@ -28,4 +28,16 @@ I have used the [specific textbook](https://www.amazon.com/Algorithm-Design-Jon-
 
 - NP and Computational Intractability
 
-I assume some of you are familiar with Java which is the programming language.
+I assume some of you are familiar with Java which is the programming language. Here is the simple code for HelloWorld.java below.
+
+```java
+public class HelloWorld{
+    public static void main(String[] args){
+        System.out.println("Hello World");
+    }
+}
+```
+
+After finishing the code, please use the javac HelloWorld.java. When you will see the HelloWorld.class.
+
+When you want to see the output, you can use the java HelloWorld, so you will see the output.
