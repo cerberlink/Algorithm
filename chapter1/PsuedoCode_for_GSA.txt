@@ -1,0 +1,30 @@
+public class Main
+{
+    public void galeShapleyAlg(){
+        List<List<Integer> S = new ArrayList();
+        
+        //while there is an unmatched man
+        while(unmatchedMen.empty()==false){
+            //look at the pref list for man and see if he can get married
+            for(int i=0; i<mans_prefList.size(); i++)){
+                //check to see if woman is unmatched 
+                if(womanMatched == false){
+                    //man and woman get married
+                    S.add(new Arraylist(unmatchedWoman));
+                    break;
+                
+                //woman is married                    
+                }else{
+                    if(manProposing > womansCurrentPartner){//checking the womans pref list!!
+                        //remove womansCurrentPartner from solution set 
+                        S.add(new ArrayList(previouslymatchedWoman));
+                        break;
+                    }
+                    else if(manProposing < womansCurrentPartner){//man proposing is lower on pref list
+                        continue;
+                    }
+                }
+            }
+        }
+    }
+}
